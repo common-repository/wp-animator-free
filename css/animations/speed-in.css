@@ -1,0 +1,94 @@
+@keyframes speed-in{
+    0% {
+        opacity:0;
+        transform:  translate(300px,0px)  skewX(-30deg) ;
+    }
+    60% {
+        opacity:1;
+        transform:  translate(-40px,0px)  skewX(30deg) ;
+    }
+    80% {
+        opacity:1;
+        transform:  translate(0px,0px)  skewX(-15deg) ;
+    }
+    100% {
+        opacity:1;
+        transform:  translate(0px,0px)  skewX(0deg) ;
+    }
+}
+
+@-moz-keyframes speed-in{
+    0% {
+        opacity:0;
+        -moz-transform:  translate(300px,0px)  skewX(-30deg) ;
+    }
+    60% {
+        opacity:1;
+        -moz-transform:  translate(-40px,0px)  skewX(30deg) ;
+    }
+    80% {
+        opacity:1;
+        -moz-transform:  translate(0px,0px)  skewX(-15deg) ;
+    }
+    100% {
+        opacity:1;
+        -moz-transform:  translate(0px,0px)  skewX(0deg) ;
+    }
+}
+
+@-webkit-keyframes speed-in{
+    0% {
+        opacity:0;
+        -webkit-transform:  translate(300px,0px)  skewX(-30deg) ;
+    }
+    60% {
+        opacity:1;
+        -webkit-transform:  translate(-40px,0px)  skewX(30deg) ;
+    }
+    80% {
+        opacity:1;
+        -webkit-transform:  translate(0px,0px)  skewX(-15deg) ;
+    }
+    100% {
+        opacity:1;
+        -webkit-transform:  translate(0px,0px)  skewX(0deg) ;
+    }
+}
+
+@-o-keyframes speed-in{
+    0% {
+        opacity:0;
+        -o-transform:  translate(300px,0px)  skewX(-30deg) ;
+    }
+    60% {
+        opacity:1;
+        -o-transform:  translate(-40px,0px)  skewX(30deg) ;
+    }
+    80% {
+        opacity:1;
+        -o-transform:  translate(0px,0px)  skewX(-15deg) ;
+    }
+    100% {
+        opacity:1;
+        -o-transform:  translate(0px,0px)  skewX(0deg) ;
+    }
+}
+
+@-ms-keyframes speed-in{
+    0% {
+        opacity:0;
+        -ms-transform:  translate(300px,0px)  skewX(-30deg) ;
+    }
+    60% {
+        opacity:1;
+        -ms-transform:  translate(-40px,0px)  skewX(30deg) ;
+    }
+    80% {
+        opacity:1;
+        -ms-transform:  translate(0px,0px)  skewX(-15deg) ;
+    }
+    100% {
+        opacity:1;
+        -ms-transform:  translate(0px,0px)  skewX(0deg) ;
+    }
+}

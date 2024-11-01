@@ -1,0 +1,27 @@
+.tooltip-animator-comic-effect-2 .tooltip-content-animator-comic {
+    width: 220px;
+    left: 50%;
+    margin: 0 0 30px -110px;
+    -webkit-transform: translate3d(0,-10px,0);
+    transform: translate3d(0,-10px,0);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+.tooltip-animator-comic-effect-2:hover .tooltip-content-animator-comic {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+.tooltip-animator-comic-effect-2 .tooltip-shape-animator-comic svg polygon {
+    fill: transparent;
+    stroke-dasharray: 580;
+    stroke-dashoffset: 580;
+}
+.tooltip-animator-comic-effect-2:hover .tooltip-shape-animator-comic svg polygon {
+    stroke-dashoffset: 0;
+    fill: #fff;
+    -webkit-transition: stroke-dashoffset 0.8s, fill 0.8s;
+    transition: stroke-dashoffset 0.8s, fill 0.8s;
+}

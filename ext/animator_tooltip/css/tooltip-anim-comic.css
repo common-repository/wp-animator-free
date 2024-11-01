@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+.tooltip-animator-comic {
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Bangers', cursive;
+}
+.tooltip-content-animator-comic {
+    position: absolute;
+    line-height: 1.2;
+    pointer-events: none;
+    text-align: center;
+    z-index: 100;
+    opacity: 0;
+    padding: 1.75em;
+    font-size: 1.05em;
+    bottom: 100%;
+}
+.tooltip-shape-animator-comic {
+    position: absolute;
+    width: 220px;
+    height: 165px;
+    pointer-events: none;
+}
+.tooltip-animator-comic-effect-2 .tooltip-shape-animator-comic {
+    bottom: 100%;
+    left: 50%;
+    margin: 0 0 0 -110px;
+}
+.tooltip-animator-comic:hover .tooltip-shape-animator-comic {
+    pointer-events: auto;
+}
+.tooltip-shape-animator-comic svg {
+    stroke: #e74c3c;
+    stroke-width: 2;
+}

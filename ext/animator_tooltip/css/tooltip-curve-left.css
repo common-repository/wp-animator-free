@@ -1,0 +1,15 @@
+.tooltip-east .tooltip-content-curve {
+    right:calc(100% + 20px);
+    -webkit-transform-origin: calc(100% + 2em) 50%;
+    transform-origin: calc(100% + 2em) 50%;
+    -webkit-transform: translate3d(0,50%,0) rotate3d(1,1,1,-30deg);
+    transform: translate3d(0,50%,0) rotate3d(1,1,1,-30deg);
+}
+.tooltip-east .tooltip-content-curve::before,
+.tooltip-east .tooltip-content-curve::after {
+    left: 99%; /* because of FF, otherwise we have a gap */
+}
+.tooltip-east .tooltip-content-curve::after {
+    -webkit-transform: scale3d(-1,1,1);
+    transform: scale3d(-1,1,1);
+}

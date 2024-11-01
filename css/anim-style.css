@@ -1,0 +1,21 @@
+
+/* 
+    Created on : 28.07.2016, 19:44:54
+    Author     : Pavlo
+*/
+.figuru{
+    z-index:100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.figuru img{
+    max-width: 100%;
+    height: auto;
+}
+figure {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}

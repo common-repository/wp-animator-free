@@ -1,0 +1,13 @@
+.tooltip-animator-sharp-turnleft:hover .tooltip-content-animator-sharp::after {
+    -webkit-transform: rotate3d(1,1,1,0) translate3d(0,-5px,0);
+    transform: rotate3d(1,1,1,0) translate3d(0,-5px,0);
+}
+.tooltip-animator-sharp-turnleft .tooltip-content-animator-sharp::after {
+    right: 25%;
+    -webkit-transform: rotate3d(1,1,1,25deg) translate3d(0,-15px,0);
+    transform: rotate3d(1,1,1,25deg) translate3d(0,-15px,0);
+}
+.tooltip-animator-sharp-turnleft .tooltip-content-animator-sharp  {
+    -webkit-transform: translate3d(0,50px,0) rotate3d(1,1,1,-6deg);
+    transform: translate3d(0,50px,0) rotate3d(1,1,1,-6deg);
+}

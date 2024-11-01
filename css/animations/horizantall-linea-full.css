@@ -1,0 +1,12 @@
+@-webkit-keyframes horizantall-linea-full{
+    from {left: -20%;}
+     to {left: 110%;}
+}
+@-moz-keyframes horizantall-linea-full{
+    from {left: -20%;}
+    to {left: 110%;}
+}
+@keyframes horizantall-linea-full {
+    from {left: -20%;}
+    to {left: 110%;}
+}

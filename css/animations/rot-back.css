@@ -1,0 +1,16 @@
+@-webkit-keyframes rot-back {
+    from { -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to   { -webkit-transform: rotate(720deg) translateX(0px) rotate(-720deg); }
+}
+@-moz-keyframes rot-back  {
+    from { -moz-transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to   { -moz-transform: rotate(720deg) translateX(0px) rotate(-720deg); }
+}
+@-o-keyframes rot-back  {
+    from { -o-transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to   { -o-transform: rotate(720deg) translateX(0px) rotate(-720deg); }
+}
+@keyframes rot-back {
+    from { transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to   { transform: rotate(720deg) translateX(0px) rotate(-720deg); }
+}

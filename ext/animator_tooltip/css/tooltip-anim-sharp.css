@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Kalam:700,400);
+.tooltip-animator-sharp {
+    position: relative;
+    z-index: 999;
+}
+.tooltip-item-animator-sharp  {
+    cursor: pointer;
+}
+.tooltip-content-animator-sharp  {
+    position: absolute;
+    font-size: 16px;
+    background: #fff;
+    z-index: 9999;
+    width: 280px;
+    bottom: 100%;
+    left: 50%;
+    margin: 0 0 105px -140px;
+    padding: 25px;
+    text-align: left;
+    border-radius: 10px/50%;
+    color: #3a453d;
+    opacity: 0;
+    cursor: default;
+    pointer-events: none;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+.tooltip-animator-sharp:hover .tooltip-content-animator-sharp  {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.tooltip-content-animator-sharp::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 120px;
+    top: 100%;
+    background: url(../../ext/animator_tooltip/img/tooltip3.svg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+

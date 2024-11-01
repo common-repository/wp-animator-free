@@ -1,0 +1,33 @@
+
+@-webkit-keyframes pulse-border {
+    0% {
+        outline: 0 solid #63605E;
+    }
+    10% {
+        outline: 5px solid #63605E; }
+    100% {
+        outline: 5px solid #63605E;
+        outline-offset: 100px; }
+}
+@-moz-keyframes pulse-border {
+    0% {
+        outline: 0 solid #63605E;
+    }
+    10% {
+        outline: 5px solid #63605E; }
+
+    100% {
+        outline: 5px solid #63605E;
+        outline-offset: 100px; }
+}
+@keyframes pulse-border {
+    0% {
+        outline: 0 solid #63605E;
+    }
+    10% {
+        outline: 5px solid #63605E; }
+
+    100% {
+        outline: 5px solid #63605E;
+        outline-offset: 100px; }
+}

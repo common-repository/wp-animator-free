@@ -1,0 +1,1 @@
+@keyframes tossing{0%{transform:rotate(-2deg);translate(0,0);} 50%{transform:rotate(2deg);translate(-10px,0);} 100%{transform:rotate(-2deg);translate(0,0);}}  @-webkit-keyframes tossing{0%{-webkit-transform:rotate(-2deg);translate(0,0);} 50%{-webkit-transform:rotate(2deg);translate(-10px,0);} 100%{-webkit-transform:rotate(-2deg);translate(0,0);}}

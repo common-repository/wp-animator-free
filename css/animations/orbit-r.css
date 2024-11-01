@@ -1,0 +1,16 @@
+@-webkit-keyframes orbit-r {
+    from { -webkit-transform: rotate(0deg) translateX(150px)  }
+    to   { -webkit-transform: rotate(360deg) translateX(150px)  }
+}
+@-moz-keyframes orbit-r {
+    from { -moz-transform: rotate(0deg) translateX(150px)  }
+    to   { -moz-transform: rotate(360deg) translateX(150px)  }
+}
+@-o-keyframes orbit-r  {
+    from { -o-transform: rotate(0deg) translateX(150px)  }
+    to   { -o-transform: rotate(360deg) translateX(150px)  }
+}
+@keyframes orbit-r  {
+    from { transform: rotate(0deg) translateX(150px)  }
+    to   { transform: rotate(360deg) translateX(150px)  }
+}

@@ -1,0 +1,24 @@
+@keyframes scale-2x{
+    from {-moz-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(0.5);}
+    to {-moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);}
+}
+@-moz-keyframes scale-2x{
+    from {-moz-transform: scale(0.5);  }
+    to {-moz-transform: scale(1);}
+}
+@-webkit-keyframes scale-2x{
+    from {  -webkit-transform: scale(0.5);  }
+    to {-webkit-transform: scale(1);}
+}
+@-o-keyframes scale-2x{
+    from {  -o-transform: scale(0.5);}
+    to { -o-transform: scale(1);}
+}

@@ -1,0 +1,4 @@
+@-webkit-keyframes move{from{-webkit-transform: translateX(-200px);transform: translateX(-200px);-moz-transform: translateX(-200px);}to{-webkit-transform: translateX(2200px);transform: translateX(2200px);-moz-transform: translateX(2200px);}}
+@-moz-keyframes move{from{-webkit-transform: translateX(-200px);transform: translateX(-200px);-moz-transform: translateX(-200px);}to{-webkit-transform: translateX(2200px);transform: translateX(2200px);-moz-transform: translateX(2200px);}}
+@-o-keyframes move{from{-webkit-transform: translateX(-200px);transform: translateX(-200px);-moz-transform: translateX(-200px);}to{-webkit-transform: translateX(2200px);transform: translateX(2200px);-moz-transform: translateX(2200px);}}
+@keyframes move{from{-webkit-transform: translateX(-200px);transform: translateX(-200px);-moz-transform: translateX(-200px);}to{-webkit-transform: translateX(2200px);transform: translateX(2200px);-moz-transform: translateX(2200px);}}

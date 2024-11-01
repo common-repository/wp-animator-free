@@ -1,0 +1,50 @@
+.tooltip-animator-comic-effect-1 .tooltip-content-animator-comic {
+    width: 190px;
+    right: calc(100% + 15px);
+    margin: 0 0 10px 0;
+    -webkit-transform: scale3d(0,0,1);
+    transform: scale3d(0,0,1);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+.tooltip-animator-comic-effect-1:hover .tooltip-content-animator-comic {
+    opacity: 1;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+.tooltip-animator-comic-effect-1 .tooltip-shape-animator-comic {
+    top: 0;
+    right: 65%;
+    -webkit-transform: translate3d(0,-90%,0);
+    transform: translate3d(0,-90%,0);
+}
+.tooltip-animator-comic-effect-1 .tooltip-shape-animator-comic svg path {
+    fill: #fff;
+    opacity: 0;
+    -webkit-transform: scale3d(0,0,1);
+    transform: scale3d(0,0,1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.tooltip-animator-comic-effect-1:hover .tooltip-shape-animator-comic svg path {
+    opacity: 1;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+.tooltip-animator-comic-effect-1:hover .tooltip-shape-animator-comic svg path#path2 {
+    -webkit-transition-delay: 0.07s;
+    transition-delay: 0.07s;
+}
+.tooltip-animator-comic-effect-1:hover .tooltip-shape-animator-comic svg path#path3 {
+    -webkit-transition-delay: 0.14s;
+    transition-delay: 0.14s;
+}
+.tooltip-animator-comic-effect-1:hover .tooltip-shape-animator-comic svg path#path4 {
+    -webkit-transition-delay: 0.21s;
+    transition-delay: 0.21s;
+}

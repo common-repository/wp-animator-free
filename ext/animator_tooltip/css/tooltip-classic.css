@@ -1,0 +1,10 @@
+.tooltip-animator-classic{
+	z-index: 999;
+}
+.tooltip-item-animator-classic {
+	cursor: pointer;
+}
+.tooltip-animator-classic:hover .tooltip-item-animator-classic::after {
+	pointer-events: auto;
+}
+

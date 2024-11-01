@@ -1,0 +1,388 @@
+    .wpanimator_current_element{
+        border: 3px dotted #9763ad;
+    }
+    #wpanimator_str_btn{
+        position: absolute;
+        position: fixed;
+        bottom: 10px;
+        right: 0px;
+        width: 80px;
+        padding: 5px;
+        height: auto;
+        z-index: 100;
+        -webkit-animation: tada 2s linear 0s 3 alternate;
+        -moz-animation: tada 2s linear 0s 3 alternate;
+        animation: tada 2s linear 0s 3 alternate;
+        animation-delay: 0s;
+        -webkit-animation-fill-mode: none;
+        -moz-animation-fill-mode: none;
+        animation-fill-mode: none;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        -webkit-perspective: 1000;
+        -moz-perspective: 1000;
+        perspective: 1000;            
+    }
+    #wpanimator_str_btn:hover{
+        cursor: pointer;
+    }
+    #wpanimator_str_btn img{
+        width: 100%;
+        height: auto
+    }
+    #fast_selector label{
+		color:#fff;
+	}
+    #wpanimator_menu{
+        display: none;
+        z-index: 9999;
+        max-width: 350px;
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+    }
+	#wpanimator_menu ul{
+		margin:0px;
+	}
+	#anim_editor h2{
+		color:#fff;
+	}
+    .wpanimator_move{
+        text-align: center;
+        font-size: 12px;
+        margin: 5px;
+        padding: 4px;
+        background: #1f6869;
+    }
+    .wpanimator_move:hover{
+        cursor: move;
+    }
+    
+    
+ #wpanimator_menu_content > ul {
+    text-align: center;
+    font-weight: 500;
+    padding: 0;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+#wpanimator_menu_content > ul > li {
+  display: inline-block;
+  background: #fafafa;
+  padding: 0.23em 0;
+  font-size: 14px;
+  position: relative;
+  width: 33%;
+  margin: 0 0 0 -4px;
+}
+#wpanimator_menu_content > ul > li:before, #wpanimator_menu_content > ul > li:after {
+  opacity: 0;
+  transition: 0.3s ease;
+}
+#wpanimator_menu_content > ul > li.ui-tabs-active:before, #wpanimator_menu_content > ul > li.ui-tabs-active:after, #wpanimator_menu_content > ul > li.ui-state-hover:before, #wpanimator_menu_content > ul > li.ui-state-hover:after, #wpanimator_menu_content > ul > li.ui-state-focus:before, #wpanimator_menu_content > ul > li.ui-state-focus:after {
+  opacity: 1;
+}
+#wpanimator_menu_content > ul > li:before, #wpanimator_menu_content > ul > li.ui-state-active.ui-state-hover:before, #wpanimator_menu_content > ul > li.ui-state-active.ui-state-focus:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 2px 3px rgba(22, 195, 255, 0.5);
+  top: 50%;
+  bottom: 0px;
+  left: 5px;
+  right: 5px;
+  border-radius: 100px / 10px;
+}
+#wpanimator_menu_content > ul > li:after, #wpanimator_menu_content > ul > li.ui-state-active.ui-state-hover:after, #wpanimator_menu_content > ul > li.ui-state-active.ui-state-focus:after {
+  content: "";
+  background: #fafafa;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 50%;
+  bottom: -6px;
+  margin-left: -6px;
+  transform: rotate(45deg);
+  box-shadow: inset 3px 3px 3px rgba(22, 195, 255, 0.5), inset 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+#wpanimator_menu_content > ul > li.ui-state-hover:before, #wpanimator_menu_content > ul > li.ui-state-focus:before {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+#wpanimator_menu_content > ul > li.ui-state-hover:after, #wpanimator_menu_content > ul > li.ui-state-focus:after {
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.2), inset 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+#wpanimator_menu_content > ul > li.ui-state-focus a {
+  text-decoration: underline;
+}
+#wpanimator_menu_content > ul > li:focus {
+  outline: none;
+}
+#wpanimator_menu_content > ul > li a {
+  color: #444;
+  text-decoration: none;
+}
+#wpanimator_menu_content > ul > li a:focus {
+  outline: none;
+}
+#wpanimator_menu_content > ul > li a span {
+  position: relative;
+  top: -0.5em;
+}
+
+#wpanimator_menu_content.dark > ul {
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+#wpanimator_menu_content.dark > ul > li {
+  background: #333;
+}
+#wpanimator_menu_content.dark > ul > li:before, #wpanimator_menu_content.dark > ul > li.ui-state-active.ui-state-hover:before, #wpanimator_menu_content.dark > ul > li.ui-state-active.ui-state-focus:before {
+  box-shadow: 0 2px 3px rgba(255, 255, 255, 0.3);
+}
+#wpanimator_menu_content.dark > ul > li:after, #wpanimator_menu_content.dark > ul > li.ui-state-active.ui-state-hover:after, #wpanimator_menu_content.dark > ul > li.ui-state-active.ui-state-focus:after {
+  background: #333;
+  box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.3), inset 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+#wpanimator_menu_content.dark > ul > li.ui-state-hover:before, #wpanimator_menu_content.dark > ul > li.ui-state-focus:before {
+  box-shadow: none;
+}
+#wpanimator_menu_content.dark > ul > li.ui-state-hover:after, #wpanimator_menu_content.dark > ul > li.ui-state-focus:after {
+  box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.4);
+}
+#wpanimator_menu_content.dark > ul > li a {
+  color: white;
+}
+
+
+
+#wpanimator_menu_content {
+  width: 100%;
+  min-width: 250px;
+  margin: auto;
+}
+
+.wpanimator_menu_text {
+  padding: 5px 10px;
+  min-height: 200px;
+  max-height: 250px;
+  overflow-y: auto;
+  font-size: 13px;
+}
+
+.wpanimator_menu_wraper {
+  background: #333;
+  color: white;
+}
+
+.wpanimator_menu_wraper {
+   padding: 5px;
+}
+
+
+.wpanimator_switcher_shift_label {
+    margin: 0px;
+  position: relative;
+  display: block;
+  width: 3.5em;
+  height: 2em;
+  cursor: pointer;
+  border-radius: 1.5em;
+  transition: 350ms;
+  box-shadow: 0 0.07em 0.1em -0.1em rgba(0, 0, 0, 0.4) inset, 0 0.05em 0.08em -0.01em rgba(255, 255, 255, 0.7);
+}
+
+.wpanimator_switcher_shift_label::after {
+  position: absolute;
+  content: '';
+    width: 1.2em;
+    height: 1.2em;
+    top: 0.4em;
+    left: 0.5em;
+  border-radius: 50%;
+  transition: 250ms ease-in-out;
+  background: linear-gradient(#f5f5f5 10%, #eeeeee);
+  box-shadow: 0 0.1em 0.15em -0.05em rgba(255, 255, 255, 0.9) inset, 0 0.2em 0.2em -0.12em rgba(0, 0, 0, 0.5);
+}
+
+.wpanimator_switcher_shift_label::before {
+    position: absolute;
+    content: '';
+    width: 2.4em;
+    height: 1.01em;
+    top: 0.5em;
+    left: 0.5em;
+    border-radius: 0.75em;
+  transition: 250ms ease-in-out;
+  background: linear-gradient(rgba(0, 0, 0, 0.07), rgba(255, 255, 255, 0.1)), #d0d0d0;
+  box-shadow: 0 0.08em 0.15em -0.1em rgba(0, 0, 0, 0.5) inset, 0 0.05em 0.08em -0.01em rgba(255, 255, 255, 0.7), 0 0 0 0 rgba(68, 204, 102, 0.7) inset;
+}
+
+input:checked + .wpanimator_switcher_shift_label::before {
+  box-shadow: 0 0.08em 0.15em -0.1em rgba(0, 0, 0, 0.5) inset, 0 0.05em 0.08em -0.01em rgba(255, 255, 255, 0.7), 3em 0 0 0 rgba(34, 204, 102, 0.7) inset;
+}
+
+input:checked + .wpanimator_switcher_shift_label::after {
+  left: 2em;
+}
+
+input#wpanimator_switcher_shift {
+  position: absolute;
+  left: -9999px;
+}
+.wpanimator_switcher{
+    width: 3.5em;
+    display: inline-block;
+}
+.wpanimator_switch_row span{
+    font-size: 12px;
+    vertical-align: super;
+    height: 100%;
+    display: inline-block;
+}
+@media screen and (min-width: 1000px) {
+  .wpanimator_menu_wraper{
+    width: 100%;
+    padding: 5px;
+  }
+}
+#wpanimator_menu input{
+    color: black;
+	padding: 0px;
+}
+#wpanimator_menu .col-2{
+   display: inline-block;
+   width: 48%;  
+   padding: 5px
+}
+#wpanimator_menu .col-1{
+   width: 100%;  
+}
+#anim_selector_costomize,#anim_animation_costomize{
+    width: 100%; 
+}
+#wpanimator_menu button, #wpanimator_menu input, #wpanimator_menu select, #wpanimator_menu textarea {
+color: #222;
+}
+#wpanimator_menu hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#wpanimator_menu #amimator_selector_submit{
+    width: 50%;
+    margin: 0 auto;
+    background: #1f6869;
+    color: white ;
+    border: 2px solid #349091;
+	padding: 10px;
+}
+.anim_submit_area{
+    width: 100%;
+    text-align: center;
+}
+.anim_preload{
+    display: none;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: rgba(74, 127, 153, 0.95);
+    text-align: center;
+}
+.anim_preload_img{
+    width: 100%;
+    margin: 0 auto;
+}
+#anim_selector_customize{
+    width: 100%;
+}
+#wpanimator_menu select{
+    width:100%;
+	padding: 0px;
+    height: auto;
+}
+#wpanimator_menu .add_btn{
+	padding: 5px;
+	background: #999797;
+}
+#wpanimator_menu .add_btn:hover{
+	color:#fff;
+	background: #5e5a5a;
+}
+
+a.anim_try_selector img{
+    width: 20px;
+    display:inline-block;
+}
+a.anim_try_stop_selector img{
+    width: 20px;
+    margin-right: 3px;
+	display:inline-block;
+}
+a.anim_try_stop_selector{
+
+}
+a.anim_try_selector, a.anim_try_stop_selector{
+    height: 30px;
+    padding: 5px;
+    font-size: 10px;
+    border: 1px solid #4db8ba;
+    background: #333333;
+	display:inline-block;
+}
+a.anim_try_selector:hover{
+    border: 1px solid #1f6869;
+}
+a.anim_try_stop_selector:hover{
+    border: 1px solid #1f6869;
+}
+.animator_try_pult{
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+
+#anim_all_elements_list{
+    list-style: none;
+    padding-left: 5px;
+    width: 305px;
+}
+#anim_all_elements_list li.anim_element_list_item{
+    padding-left: 10px;
+}
+.anim_show_hover_element:hover{
+    cursor: pointer;
+    background: #1f6869;
+}
+.anim_checked.anim_show_hover_element{
+    background: #1f6869;
+}
+.anim_delete_element img{
+    width: 25px;
+}
+.anim_edit_element, .anim_delete_element{
+    margin-left: 10px;
+}
+.anim_edit_element img{
+    width: 25px;
+}
+.anim_show_hover_element img{
+    width: 30px;
+    height: auto;
+}
+.anim_show_hover_element, .animator_title_el, .anim_edit_element, .anim_delete_element{
+    display: inline-block;
+    vertical-align: top;
+}
+.anim_edit_element, .anim_delete_element{
+    float: right;
+}
+.animator_title_el{
+   max-width: 120px;
+}
+.anim_element_show_class{
+   border: 5px dotted rgba(23, 211, 198,1);
+}

@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Gochi+Hand);
+.tooltip-curve {
+
+}
+.tooltip-curve:hover .tooltip-item-curve {
+    border-color: #fff;
+}
+.tooltip-content-curve {
+    position: absolute;
+    background: #e35583;
+    z-index: 9999;
+    width: 200px;
+    bottom: 50%;
+    margin-bottom: -1em;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    cursor: default;
+    pointer-events: none;
+    font-family: 'Gochi Hand', cursive;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+.tooltip-curve:hover .tooltip-content-curve {
+    opacity: 1;
+    -webkit-transform: translate3d(0,50%,0) rotate3d(0,0,0,0);
+    transform: translate3d(0,50%,0) rotate3d(0,0,0,0);
+    pointer-events: auto;
+}
+.tooltip-content-curve::before,
+.tooltip-content-curve::after {
+    content: '';
+    position: absolute;
+}
+.tooltip-content-curve::before {
+    height: 100%;
+    width: 3em;
+}
+.tooltip-content-curve::after {
+    width: 2em;
+    height: 2em;
+    top: 50%;
+    margin: -1em 0 0;
+    background: url(../../ext/animator_tooltip/img/tooltip2.svg) no-repeat center center;
+    background-size: 100%;
+}

@@ -1,0 +1,60 @@
+.clear{
+    clear: both;
+}
+
+.my_row{
+
+    width: 100%;
+
+}
+
+.col-1{
+    margin-top:20px;
+    margin-bottom: 5px;
+    width: 100%;
+
+}
+
+.col-2{
+    margin-top:20px;
+    margin-bottom: 5px;
+    float: left;
+    width: 49%;
+    min-width: 300px;
+}
+.col-3{
+    margin-top:20px;
+    margin-bottom: 5px;
+    float: left;
+    width: 33.333%;
+    min-width: 200px;
+}
+.col-4{
+    margin-top:20px;
+    margin-bottom: 5px;
+    min-width: 150px;
+    float: left;
+    width: 23%;
+}
+.anim_textarea{
+    width: 50%;
+    height: 70px;
+
+}
+.toggle_btn{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #F1F1F1;
+}
+.sector_title{
+    margin-left: -10px;
+    padding: 5px 15px;
+    font-weight: 600;
+    background: #0386aa;
+    color: #fff;
+    font-size: 15px;
+}
+.add_btn{
+    margin-bottom: 10px;
+}

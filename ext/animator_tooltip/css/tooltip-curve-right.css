@@ -1,0 +1,11 @@
+.tooltip-west .tooltip-content-curve {
+    left: calc(100% + 20px);
+    -webkit-transform-origin: -2em 50%;
+    transform-origin: -2em 50%;
+    -webkit-transform: translate3d(0,50%,0) rotate3d(1,1,1,30deg);
+    transform: translate3d(0,50%,0) rotate3d(1,1,1,30deg);
+}
+.tooltip-west .tooltip-content-curve::before,
+.tooltip-west .tooltip-content-curve::after {
+    right: 99%; /* because of FF, otherwise we have a gap */
+}
